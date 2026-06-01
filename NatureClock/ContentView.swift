@@ -4,10 +4,10 @@ import AudioToolbox
 struct ContentView: View {
     @StateObject private var locationManager = LocationManager()
 
-    @State private var lat: Double = -43.53
-    @State private var lon: Double = 172.63
-    @State private var latText = "-43.53"
-    @State private var lonText = "172.63"
+    @State private var lat: Double = 35.68
+    @State private var lon: Double = 139.69
+    @State private var latText = "35.68"
+    @State private var lonText = "139.69"
 
     @State private var soundEnabled = true
     @State private var legacyEnabled = false
