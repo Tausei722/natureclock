@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct NatureClockApp: App {
+struct NatureClock2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

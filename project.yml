@@ -1,10 +1,10 @@
-name: NatureClock
+name: NatureClock2
 options:
   bundleIdPrefix: com.Tausei722
   deploymentTarget:
     iOS: "16.0"
 targets:
-  NatureClock:
+  NatureClock2:
     type: application
     platform: iOS
     deploymentTarget: "16.0"
@@ -13,6 +13,7 @@ targets:
     info:
       path: NatureClock/Info.plist
       properties:
+        CFBundleDisplayName: NatureClock2
         NSLocationWhenInUseUsageDescription: "現在地から日の出・日の入りを計算するために使用します"
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
